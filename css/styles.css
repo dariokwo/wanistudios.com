@@ -1,3 +1,45 @@
-body {
-    margin: 0;
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header nav {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav .home {
+  width: 30%;
+  text-align: left;
+}
+header nav .logo {
+  width: 40%;
+  text-align: center;
+}
+header nav .logo .logo-img {
+  max-width: 400px;
+  margin: 0 auto;
+}
+header nav .logo .logo-img img {
+  width: 100%;
+}
+header nav .menuIcon {
+  width: 30%;
+  text-align: right;
+}
+header nav .menuIcon .theIcon {
+  cursor: pointer;
+}
+header nav .home .theIcon:hover,
+header nav .menuIcon .theIcon:hover {
+  border-bottom: 2px solid;
+}
+header a {
+  color: inherit;
+  text-decoration: none;
 }
